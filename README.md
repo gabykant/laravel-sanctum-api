@@ -21,12 +21,13 @@ This project demonstrates best practices for API authentication, user management
 
 ## 🛠 Tech Stack
 
--   **Laravel 10 / 11**
+-   **Laravel 12**
 -   **PHP 8+**
 -   **Laravel Sanctum**
--   **MySQL / PostgreSQL**
+-   **MySQL**
 -   **Swagger (L5-Swagger)**
--   RESTful API architecture
+-   **RESTful API architecture**
+-   **MailJet**
 
 ---
 
@@ -34,16 +35,16 @@ This project demonstrates best practices for API authentication, user management
 
 ### Authentication
 
-POST /api/register
-POST /api/login
-POST /api/logout
-GET /api/user
+-   POST /api/register
+-   POST /api/login
+-   POST /api/logout
+-   GET /api/user
 
 ### Password Management
 
-POST /api/forgot-password
-POST /api/reset-password
-POST /api/change-password
+-   POST /api/forgot-password
+-   POST /api/reset-password
+-   POST /api/change-password
 
 ## 🔐 Authentication
 
@@ -98,11 +99,9 @@ You can use MailJet, SMTP, or any email provider for production.
 
 ## 👨‍💻 Author
 
-Gabriel Kwaye
-Senior Laravel Developer – APIs & Authentication
-GitHub: https://github.com/your-username
-Email: g.kwaye@ksoft-solutions.com
-Upwork: https://www.upwork.com/freelancers/~01b294ea71fb12952f
+-   Gabriel Kwaye ( _Senior Laravel Developer – APIs & Authentication_ )
+-   GitHub: https://github.com/gabykant
+-   Upwork: https://www.upwork.com/freelancers/~01b294ea71fb12952f
 
 ## 📄 License
 
