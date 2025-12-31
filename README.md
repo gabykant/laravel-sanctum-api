@@ -63,9 +63,8 @@ Use the **Authorize** button to test secured endpoints.
 
 ## ⚙️ Installation & Setup
 
-### 1. Clone the repository
-
 ```bash
+### 1. Clone the repository
 git clone https://github.com/your-username/laravel-auth-api-sanctum.git
 cd laravel-auth-api-sanctum
 
@@ -87,7 +86,9 @@ php artisan serve --port=8050
 Application URL:
 http://localhost:8050
 
-📬 Mail Configuration (Password Reset)
+```
+
+## 📬 Mail Configuration (Password Reset)
 
 For local testing, emails are logged:
 
@@ -95,7 +96,7 @@ MAIL_MAILER=log
 
 You can use MailJet, SMTP, or any email provider for production.
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Gabriel Kwaye
 Senior Laravel Developer – APIs & Authentication
@@ -103,7 +104,6 @@ GitHub: https://github.com/your-username
 Email: g.kwaye@ksoft-solutions.com
 Upwork: https://www.upwork.com/freelancers/~01b294ea71fb12952f
 
-📄 License
+## 📄 License
 
 This project is open-source and available under the MIT License
-```
